@@ -1,0 +1,10 @@
+Luntor is LUNch indicaTOR.
+This program is to indicate school cafeteria's daily menu on student's KakaoTalk.
+It sends school cafeteria's daily menu everyday in time.
+
+Luntor is made for Seong-Deok High School(성덕고등학교).
+If you want to use this auto-chat, change the chatroom name from "2022 성덕고 1-11" to what you want.
+If you try to use it under 2.2.0, you have to capture chatroom's name and upload to it.
+
+Don't use this program for illegal purpose or  commercial purpose.
+This program should be used for indivisual purpose or educational purpose.
