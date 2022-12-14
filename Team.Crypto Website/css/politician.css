@@ -1,0 +1,199 @@
+.title-container {
+    text-align: center;
+    margin-top: 2vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3vw;
+}
+
+.title-container .title {
+    font-size: 38px;
+}
+
+.title-container .subtitle {
+    font-size: 28px;
+}
+
+.content-container {
+    background-color: #f2f2f2;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4vw;
+    text-align: center;
+}
+
+
+.file-upload {
+    background-color: #f2f2f2;
+    width: 80vw;
+    height: auto;
+    padding: 10%;
+    padding-bottom: 0;
+    margin: 0 auto;
+}
+
+.phone {
+    font-size: 3vw;
+    padding-bottom: 3vw;
+    margin-bottom: 0;
+}
+
+.file-upload-content {
+    display: none;
+    text-align: center;
+}
+
+.file-upload-input {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    opacity: 0;
+    cursor: pointer;
+    transform: translate(-30vw, 0vw);
+}
+
+.image-upload-wrap {
+    border: 4px dashed #1FB264;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.image-dropping,
+.image-upload-wrap:hover {
+    background-color: #1FB264;
+    border: 4px dashed #ffffff;
+}
+
+.drag-text {
+    text-align: center;
+}
+
+.drag-text h3 {
+    font-size: 4vw;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #15824B;
+    padding-top: 40%;
+    padding-bottom: 40%;
+}
+
+.file-upload-image {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    object-fit: contain;
+}
+
+.loading-notice {
+    font-size: 3.5vw;
+}
+
+.expl {
+    display: none;
+}
+
+.expl-poli {
+    font-size: 10vw;
+}
+
+.expl-expl {
+    font-size: 4vw;
+    margin-bottom: 0.5vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+
+
+span {
+    height: 0.8vw;
+    display: inline-block;
+}
+
+.rate-bar-container {
+    font: caption;
+    font-size: 3vw;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    padding: 5vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    display: none;
+}
+
+.rate-bar-container p {
+    margin-bottom: 5vw;
+}
+
+.rate-bar {
+    position: relative;
+    width: 65%;
+    height: 3vw;
+    border-radius: 1vw;
+    background-color: #fff;
+    vertical-align: middle;
+}
+
+.rate-bar-value {
+    position: absolute;
+    color: #ffffff;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 3vw;
+    border-radius: 1vw;
+}
+
+.rate-1 .rate-bar-value {
+    background-color: #E61E2B;
+}
+
+.rate-2 .rate-bar-value {
+    background-color: #004EA2;
+}
+
+.rate-3 .rate-bar-value {
+    background-color: #0000A8;
+}
+
+.rate-4 .rate-bar-value {
+    background-color: #C9252B;
+}
+
+.rate-5 .rate-bar-value {
+    background-color: #FFED00;
+}
+
+.rate-6 .rate-bar-value {
+    background-color: #00A0E2;
+}
+
+.class-1 {
+    text-align: center;
+    font-size: 3vw;
+    opacity: 50%;
+}
+
+.class-2 {
+    text-align: center;
+    font-size: 3vw;
+    opacity: 50%;
+}
+
+
+.retry {
+    width: 18vw;
+    height: 10vw;
+    font-size: 4vw;
+    text-align: center;
+    margin-bottom: 3vw;
+    display: none;
+}

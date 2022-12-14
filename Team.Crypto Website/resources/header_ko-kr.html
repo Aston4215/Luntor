@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko-kr">
+
+<head>
+    <!-- Basic -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, minimum-scale=1">
+    <!-- Site Metas -->
+    <meta name="description" content="가정용 또는 비즈니스용 Team.Crypto 제품 및 서비스를 살펴보세요.">
+    <meta name="author" content="Daniel Kim">
+
+    <title>Team.Crypto</title>
+
+    <!-- Links -->
+    <link rel="stylesheet" href="https://teamcrypto.netlify.app/css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://teamcrypto.netlify.app/css/bootstrap.css">
+    <link rel="stylesheet" href="https://teamcrypto.netlify.app/css/responsive.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto:400,500&display=swap">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="https://teamcrypto.netlify.app/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="https://teamcrypto.netlify.app/favicon.ico">
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LZ16Q4ENW4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-LZ16Q4ENW4');
+    </script>
+</head>
+
+<body>
+    <header class="header_section">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg custom_nav-container ">
+                <a class="navbar-brand" href="https://teamcrypto.netlify.app/ko-kr/">
+                    <div class="logo_box">
+                        <img src="https://teamcrypto.netlify.app/images/logo_insert.png" alt="">
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto mr-2">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="https://teamcrypto.netlify.app/ko-kr/product/">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://teamcrypto.netlify.app/ko-kr/program/">Programs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://teamcrypto.netlify.app/ko-kr/service/">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://teamcrypto.netlify.app/ko-kr/about/">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://teamcrypto.netlify.app/ko-kr/support/">Support Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://teamcrypto.netlify.app/ko-kr/community/">Community</a>
+                        </li>
+                    </ul>
+                    <div class="nav-search">
+                        <input class="nav-search-input d-none" name="q" type="text" placeholder="Search">
+                        <button class="nav-search-btn" onclick="input()"><img class="nav-search-img" src="https://teamcrypto.netlify.app/images/search-icon.png" alt=""></button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <script>
+        $(".nav-search-btn").click(
+            function input () {
+                if ($(".nav-search-input").hasClass("d-none")) {
+                    $(".nav-search").css('width', '210px');
+                    $(".nav-search-input").removeClass("d-none");
+                }
+                else {
+                    $(".nav-search").css('width', '0px');
+                    $(".nav-search-input").addClass("d-none");
+                }
+            });
+    </script>
+</body>
+
+</html>

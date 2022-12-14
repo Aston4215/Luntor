@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ko-kr">
+
+<head>
+    <!-- Basic -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, minimum-scale=1">
+    <!-- Site Metas -->
+    <meta name="description" content="가정용 또는 비즈니스용 Team.Crypto 제품 및 서비스를 살펴보세요.">
+    <meta name="author" content="Daniel Kim">
+
+    <title>관상으로 보는 MBTI, Face MBTI | Team.Crypto</title>
+
+    <!-- Links -->
+    <link rel="stylesheet" href="https://teamcrypto.netlify.app/css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://teamcrypto.netlify.app/css/bootstrap.css">
+    <link rel="stylesheet" href="https://teamcrypto.netlify.app/css/responsive.css">
+    <link rel="stylesheet" href="https://teamcrypto.netlify.app/css/facembti.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto:400,500&display=swap">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="https://teamcrypto.netlify.app/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="https://teamcrypto.netlify.app/favicon.ico">
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LZ16Q4ENW4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-LZ16Q4ENW4');
+    </script>
+</head>
+
+<body>
+    <!-- start header section -->
+    <div id="header_ko-kr"></div>
+    <!-- end header section -->
+
+
+    <div class="title-container">
+        <h1 class="title">Face MBTI</h1>
+        <h2 class="subtitle">관상으로 보는 AI MBTI 테스트</h2>
+    </div>
+
+    <div class="content-container">
+        <div class="file-upload">
+            <div class="image-upload-wrap">
+                <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
+                <div class="drag-text">
+                    <h3>이미지를 드래그하거나<br>클릭해 업로드하세요</h3>
+                </div>
+            </div>
+            <div class="file-upload-content">
+                <img class="file-upload-image" id="uploaded_image" src="#" alt="your image" />
+            </div>
+        </div>
+        <p class="phone">이 서비스는 모바일 친화적 서비스입니다.</p>
+
+        <div class="spinner-border" style="display: none;" role="status"></div>
+        <p class="loading-notice" style="display: none;">AI가 당신의 얼굴을 분석중입니다...</p>
+
+        <div class="mbti-expl">
+            <h1 class="mbti-expl-mbti" id="mbti-expl-mbti">MBTI</h1>
+            <p class="mbti-expl-expl" id="mbti-expl-expl">This place would be filled with MBTI explanation.</p>
+        </div>
+
+        <div class="rate-bar-container">
+            <p class="rate-1">
+                <span class="class-1">I</span>
+                <span class="rate-value" id="rate-value-0">0%</span>
+                <span class="rate-bar">
+                    <span class="rate-bar-value"></span>
+                </span>
+                <span class="rate-value-reverse" id="rate-value-reverse-0">100%</span>
+                <span class="class-2">E</span>
+            </p>
+
+            <p class="rate-2">
+                <span class="class-1">S</span>
+                <span class="rate-value" id="rate-value-1">0%</span>
+                <span class="rate-bar">
+                    <span class="rate-bar-value"></span>
+                </span>
+                <span class="rate-value-reverse" id="rate-value-reverse-1">100%</span>
+                <span class="class-2">N</span>
+            </p>
+
+            <p class="rate-3">
+                <span class="class-1">T</span>
+                <span class="rate-value" id="rate-value-2">0%</span>
+                <span class="rate-bar">
+                    <span class="rate-bar-value"></span>
+                </span>
+                <span class="rate-value-reverse" id="rate-value-reverse-2">100%</span>
+                <span class="class-2">F</span>
+            </p>
+
+            <p class="rate-4">
+                <span class="class-1">J</span>
+                <span class="rate-value" id="rate-value-3">0%</span>
+                <span class="rate-bar">
+                    <span class="rate-bar-value"></span>
+                </span>
+                <span class="rate-value-reverse" id="rate-value-reverse-3">100%</span>
+                <span class="class-2">P</span>
+            </p>
+        </div>
+
+        <button class="retry" type="button" onclick="location.href='https:\/\/teamcrypto.netlify.app/ko-kr/service/facembti'">Retry</button>
+    </div>
+
+
+    <div class="ad_zone">
+        <div class="ad_banner">
+            <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-xg3aUS7HzbhOG7P1" data-ad-width="300"
+                data-ad-height="250">
+            </ins>
+            <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+        </div>
+
+        <div class="ad_banner">
+            <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-c47LzKgH7uv6JZdC" data-ad-width="320"
+                data-ad-height="100">
+            </ins>
+            <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+        </div>
+    </div>
+
+
+    <!-- start footer section -->
+    <div id="footer_ko-kr"></div>
+    <!-- end footer section -->
+
+
+    <!-- start script section -->
+    <script type="text/javascript" src="https://teamcrypto.netlify.app/js/inserthtml.js"></script>
+    <script type="text/javascript" src="https://teamcrypto.netlify.app/js/navsearch.js"></script>
+    <script type="text/javascript" src="https://teamcrypto.netlify.app/js/owlcarousel.js"></script>
+    <script type="text/javascript" src="https://teamcrypto.netlify.app/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="https://teamcrypto.netlify.app/js/bootstrap.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js">
+    </script>
+    <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+    <script id="facembti process">
+        function readURL(input) {
+            if (input.files && input.files[0]) {
+
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    $('.image-upload-wrap').hide();
+
+                    $('.file-upload-image').attr('src', e.target.result);
+                    $('.file-upload-content').show();
+                };
+
+                reader.readAsDataURL(input.files[0]);
+
+                predict();
+                $('.retry').show();
+            }
+        }
+
+        async function predict() {
+            $('.spinner-border').show();
+            $('.loading-notice').show();
+
+            let model;
+            var mbti = ['M', 'B', 'T', 'I'];
+            var istj = ['I', 'S', 'T', 'J'];
+            var enfp = ['E', 'N', 'F', 'P'];
+
+            for (let i = 0; i < 4; i++) {
+                model = await tmImage.load("/models/model_" + i + "/model.json", "/models/model_" + i + "/metadata.json");
+                var uploaded_image = document.getElementById("uploaded_image", false);
+                const prediction = await model.predict(uploaded_image);
+
+                document.getElementById("rate-value-" + i).innerHTML = Math.round(prediction[0].probability.toFixed(2) * (100)) + '%';
+                document.getElementById("rate-value-reverse-" + i).innerHTML = Math.round(prediction[1].probability.toFixed(2) * (100)) + '%';
+                $('.rate-' + (i + 1) + ' .rate-bar-value').css("width", $(".rate-" + (i + 1) + " .rate-value").text());
+
+                $('.rate-' + (i + 1) + ' .class-1').css("opacity", prediction[0].probability.toFixed(2) * 0.75);
+                $('.rate-' + (i + 1) + ' .class-2').css("opacity", prediction[1].probability.toFixed(2) * 0.75);
+
+                if (Math.round(prediction[0].probability.toFixed(2) * (100)) >= Math.round(prediction[1].probability.toFixed(2) * (100))) {
+                    mbti[i] = istj[i];
+                }
+                else {
+                    mbti[i] = enfp[i];
+                    $('.rate-' + (i + 1) + ' .rate-bar').css("background-color", "tomato");
+                    $('.rate-' + (i + 1) + ' .rate-bar-value').css("background-color", "#fff");
+                }
+            }
+            document.getElementById("mbti-expl-mbti").innerHTML = mbti[0] + mbti[1] + mbti[2] + mbti[3];
+            if ($(".mbti-expl-mbti").text() == "ISTJ") {
+                document.getElementById("mbti-expl-expl").innerHTML = "사실을 중시하는 믿음직한 현실주의자";
+            }
+            else if ($(".mbti-expl-mbti").text() == "ISTP") {
+                document.getElementById("mbti-expl-expl").innerHTML = "대담하며 현실적인 모든 종류의 도구를 자유자재로 다루는 장인";
+            }
+            else if ($(".mbti-expl-mbti").text() == "ESTP") {
+                document.getElementById("mbti-expl-expl").innerHTML = "영리하고 에너지 넘치며 관찰력이 뛰어난 사업가";
+            }
+            else if ($(".mbti-expl-mbti").text() == "ESTJ") {
+                document.getElementById("mbti-expl-expl").innerHTML = "사물과 사람을 관리하는데 뛰어난 경영자";
+            }
+            else if ($(".mbti-expl-mbti").text() == "ISFJ") {
+                document.getElementById("mbti-expl-expl").innerHTML = "주변인을 보호하는 헌신적이며 따뜻한 수호자";
+            }
+            else if ($(".mbti-expl-mbti").text() == "ISFP") {
+                document.getElementById("mbti-expl-expl").innerHTML = "새로운 경험을 추구하는 매력넘치는 예술가";
+            }
+            else if ($(".mbti-expl-mbti").text() == "ESFP") {
+                document.getElementById("mbti-expl-expl").innerHTML = "에너지와 열정으로 주변인을 즐겁게 하는 연예인";
+            }
+            else if ($(".mbti-expl-mbti").text() == "ESFJ") {
+                document.getElementById("mbti-expl-expl").innerHTML = "인기가 많고 사교성 높은 마당발";
+            }
+            else if ($(".mbti-expl-mbti").text() == "INFJ") {
+                document.getElementById("mbti-expl-expl").innerHTML = "타인에게 의욕을 불어넣는 이상주의자";
+            }
+            else if ($(".mbti-expl-mbti").text() == "INFP") {
+                document.getElementById("mbti-expl-expl").innerHTML = "부드럽고 친절한 이타주의자";
+            }
+            else if ($(".mbti-expl-mbti").text() == "ENFP") {
+                document.getElementById("mbti-expl-expl").innerHTML = "긍정적으로 세상을 보는 자유로운 영혼";
+            }
+            else if ($(".mbti-expl-mbti").text() == "ENFJ") {
+                document.getElementById("mbti-expl-expl").innerHTML = "청중을 사로잡는 카리스마 넘치는 지도자";
+            }
+            else if ($(".mbti-expl-mbti").text() == "INTJ") {
+                document.getElementById("mbti-expl-expl").innerHTML = "상상력이 풍부한 전략가";
+            }
+            else if ($(".mbti-expl-mbti").text() == "INTP") {
+                document.getElementById("mbti-expl-expl").innerHTML = "지식을 갈망하는 혁신적인 발명가";
+            }
+            else if ($(".mbti-expl-mbti").text() == "ENTP") {
+                document.getElementById("mbti-expl-expl").innerHTML = "영리하고 호기심많은 사색가";
+            }
+            else if ($(".mbti-expl-mbti").text() == "ENTJ") {
+                document.getElementById("mbti-expl-expl").innerHTML = "상상력이 풍부하고 의지가 강력한 지도자";
+            }
+            else {
+                document.getElementById("mbti-expl-expl").innerHTML = "Error 505: Unacceptable variable";
+            }
+
+            $('.spinner-border').hide();
+            $('.loading-notice').hide();
+            $('.mbti-expl').show();
+            $('.rate-bar-container').show();
+        }
+    </script>
+    <!-- end script section -->
+</body>
+
+</html>
